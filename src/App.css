@@ -1,0 +1,52 @@
+body {
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 700px;
+  border: 1px solid #cece74;
+}
+
+.error {
+  color: red;
+  padding-left: 10px;
+}
+
+input {
+  margin-left: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+input[name] {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(1, 1, 20);
+  border-radius: 10px;
+  border: 1px solid #cece74;
+  padding: 8px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  padding: 3px;
+  width: 70px;
+  cursor: pointer;
+  background: #ffffaf;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  color: black;
+}
+
+button:active,
+button:hover  {
+  font-weight: 700;
+  background: #518ddb;
+  box-shadow: 0px 0px 3px blue;
+  font-size: 14px;
+}
